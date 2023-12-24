@@ -23,7 +23,10 @@ const AuthForm = () => {
         if(! inputs.email || !inputs.password){
             alert("please fill all the fields");
         }
-        navigate("/")
+        else{
+            navigate("/")
+        }
+
     };
   const [isLogin, setIsLogin] = useState(true);
   return (
